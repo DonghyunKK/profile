@@ -1,0 +1,89 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    text-align: center;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.card-white {
+    border: 1px solid lightgray;
+    background-color: #fff;
+    padding: 30px;
+    margin: 20px 0;
+    box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+.img-background {
+    background-image: url("images/img1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    text-align: right;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.list-inline i {
+    font-size: 40px;
+}
+
+h1 {
+    color: #191919
+}
+
+a {
+    text-decoration: none;
+    color: #6C91C2;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn-orange {
+    background-color: #E58F65;
+    padding: 5px 10px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.btn-orange:hover {
+    background-color: #000;
+}
+
+a :hover {
+    color: #2364AA;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 80%;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 80%;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 80%;
+  }
+  .img-background {
+    background-position: left;
+    color: #fff;
+  }
+}
